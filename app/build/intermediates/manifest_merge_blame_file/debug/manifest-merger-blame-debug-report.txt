@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.amine.hrimech.uv.es"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <uses-feature
+15-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:9:5-11:35
+16        android:glEsVersion="0x00020000"
+16-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:10:9-41
+17        android:required="true" />
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:11:9-32
+18    <uses-feature
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.wifi"
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:13:9-45
+20        android:required="false" />
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:14:9-33
+21
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:17:5-79
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:18:5-76
+23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\33d34e196f221dd209a833295baad2d3\jetified-mapbox-android-sdk-9.1.0\AndroidManifest.xml:18:22-73
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:12:5-68
+24-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:12:22-65
+25
+26    <application
+26-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:9:5-30:19
+27        android:allowBackup="true"
+27-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:10:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.1] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:11:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:12:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:13:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:14:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:15:9-40
+36        <activity android:name="com.amine.hrimech.uv.es.AdminPanel" />
+36-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:16:9-57
+36-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:16:19-45
+37        <activity android:name="com.amine.hrimech.uv.es.UserPanel" />
+37-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:17:9-47
+37-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:17:19-44
+38        <activity android:name="com.amine.hrimech.uv.es.Registration" />
+38-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:18:9-50
+38-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:18:19-47
+39        <activity android:name="com.amine.hrimech.uv.es.Login" />
+39-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:19:9-43
+39-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:19:19-40
+40        <activity android:name="com.amine.hrimech.uv.es.MapPart" />
+40-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:20:9-45
+40-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:20:19-42
+41        <activity android:name="com.amine.hrimech.uv.es.MainActivity" >
+41-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:21:9-27:20
+41-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:21:19-47
+42            <intent-filter>
+42-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:22:13-26:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:23:17-69
+43-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:23:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:25:17-77
+45-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:25:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.amine.hrimech.uv.es.item_info" />
+48-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:28:9-47
+48-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:28:19-44
+49        <activity android:name="com.amine.hrimech.uv.es.Reports_info" />
+49-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:29:9-50
+49-->C:\Users\Amine Dev\Desktop\Valenbisi\app\src\main\AndroidManifest.xml:29:19-47
+50
+51        <provider
+51-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:18:9-22:39
+52            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+52-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:19:13-93
+53            android:authorities="com.amine.hrimech.uv.es.mapboxtelemetryinitprovider"
+53-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:20:13-79
+54            android:exported="false"
+54-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:21:13-37
+55            android:initOrder="100" />
+55-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:22:13-36
+56
+57        <service
+57-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:24:9-26:72
+58            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+58-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:25:13-92
+59            android:permission="android.permission.BIND_JOB_SERVICE" />
+59-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.0] C:\Users\Amine Dev\.gradle\caches\transforms-2\files-2.1\50066bfda0821b640cc6d6f993f824e4\jetified-mapbox-android-telemetry-5.0.0\AndroidManifest.xml:26:13-69
+60    </application>
+61
+62</manifest>
