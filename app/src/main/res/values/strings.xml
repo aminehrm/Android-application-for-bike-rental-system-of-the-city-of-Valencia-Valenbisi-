@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Valenbisi</string>
+    <string name="textview">TextView</string>
+    <string name="error_message">Error</string>
+    <string name="station_details_Details">Details:</string>
+    <string name="station_details_Number">Number</string>
+    <string name="station_details_Address">Address</string>
+    <string name="station_details_Total">Total</string>
+    <string name="station_details_Available">Available</string>
+    <string name="station_details_Free">Free</string>
+    <string name="station_details_Coordinates">Coordinates</string>
+    <string name="station_details_Reports">Reports</string>
+    <string name="station_report_Name">Report</string>
+    <string name="station_report_NameHint">Report name</string>
+    <string name="station_report_Description">Description</string>
+    <string name="station_report_DescriptionHint">Report description</string>
+    <string name="station_report_Status">Status</string>
+    <string name="station_report_Type">Type</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYW1pbmVocm0iLCJhIjoiY2s5dzF3d3BmMDR0aTNnbGYxYzl0amRnYiJ9.1CamHmGKj_Thba1-5-tk_Q</string>
+
+
+    <string-array name="report_statuses">
+        <item>Open</item>
+        <item>Processing</item>
+    </string-array>
+    <string-array name="report_statuses_user">
+        <item>Open</item>
+    </string-array>
+    <string-array name="report_types">
+        <item>Electric</item>
+        <item>Mechanical</item>
+        <item>Painting</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserPanel">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="415dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="104dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="410dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:text="User Pofil"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="404dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="52dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="@+id/textView12"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="100dp"
+        android:text="Username :"
+        android:textAlignment="center"
+        android:textColor="@color/mapbox_blue"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="411dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="88dp"
+        android:text="Email :"
+        android:textAlignment="center"
+        android:textColor="@color/mapbox_blue"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Sign out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

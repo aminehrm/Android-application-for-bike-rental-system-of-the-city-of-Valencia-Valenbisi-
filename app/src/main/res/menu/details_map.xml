@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ValenbisiApp="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/green"
+        android:icon="@drawable/ic_locationgreen"
+        android:title="new_report"
+        ValenbisiApp:showAsAction="always"/>
+    <item android:id="@+id/red"
+        android:icon="@drawable/ic_locationred"
+        android:title="location"
+        ValenbisiApp:showAsAction="always"/>
+    <item android:id="@+id/yellow"
+        android:icon="@drawable/ic_locationyellow"
+        android:title="location"
+        ValenbisiApp:showAsAction="always"/>
+    <item android:id="@+id/all"
+        android:icon="@drawable/ic_locationmx"
+        android:title="location"
+        ValenbisiApp:showAsAction="always"/>
+</menu>
